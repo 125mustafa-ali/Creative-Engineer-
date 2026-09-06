@@ -77,7 +77,7 @@ INSTRUCTIONS:
 2. Keep responses concise, direct, and professional (typically 2-4 sentences or clear bullet points).
 3. Do not fabricate or speculate on facts outside this record.`;
 
-      const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`, {
+      const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${apiKey}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
