@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #E8E6E1;
+    color: #000000;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+}
+
+.font-serif-editorial {
+  font-family: 'Instrument Serif', Georgia, serif;
+}
+
+.font-sans-editorial {
+  font-family: 'Syne', 'Plus Jakarta Sans', sans-serif;
+}
+
+.font-ui-sans {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Creative Portfolio",
+  "description": "An editorial brutalist single-page creative portfolio showcasing capabilities, selected client work, and conversational contact.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
