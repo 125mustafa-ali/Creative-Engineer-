@@ -1,9 +1,19 @@
-import React from 'react';
+import React, { useState, useRef } from 'react';
 import { siteConfig } from '../data';
-import { ArrowDown, Sparkles } from 'lucide-react';
+import { ArrowDown, Sparkles, Volume2, VolumeX } from 'lucide-react';
 
 export const HeroStatement: React.FC = () => {
   const heroVideo = 'https://res.cloudinary.com/xywystqe/video/upload/v1788802335/Energy_drink_com.mp4';
+  const [isMuted, setIsMuted] = useState(true);
+  const videoRef = useRef<HTMLVideoElement | null>(null);
+
+  const toggleSound = () => {
+    const nextMuted = !isMuted;
+    setIsMuted(nextMuted);
+    if (videoRef.current) {
+      videoRef.current.muted = nextMuted;
+    }
+  };
 
   return (
     <section id="studio" className="w-full border-b border-black bg-[#E8E6E1] text-black">
@@ -64,18 +74,34 @@ export const HeroStatement: React.FC = () => {
 
           {/* Right Column: The Video Player (Single Hero Commercial 9:16 Aspect Ratio) */}
           <div
-            className="relative overflow-hidden w-full max-w-md md:max-w-none md:w-[38%] lg:w-[38%] xl:w-[36%] aspect-[9/16] rounded-2xl border-4 border-black shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] bg-black flex-shrink-0 transform-gpu"
+            className="group relative overflow-hidden w-full max-w-md md:max-w-none md:w-[38%] lg:w-[38%] xl:w-[36%] aspect-[9/16] rounded-2xl border-4 border-black shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] bg-black flex-shrink-0 transform-gpu"
             style={{ WebkitTransform: 'translateZ(0)' }}
           >
             <video
+              ref={videoRef}
               src={heroVideo}
               autoPlay
               loop
-              muted
+              muted={isMuted}
               playsInline
               preload="auto"
               className="w-full h-full object-cover"
             />
+
+            {/* Minimalist Sound Toggle Button */}
+            <button
+              type="button"
+              id="hero-sound-toggle-btn"
+              onClick={toggleSound}
+              aria-label={isMuted ? 'Unmute commercial' : 'Mute commercial'}
+              className="absolute bottom-4 right-4 z-20 flex items-center justify-center p-2.5 sm:p-3 rounded-full bg-black/60 hover:bg-black/85 text-white backdrop-blur-md border border-white/20 shadow-md transition-all duration-300 hover:scale-110 active:scale-95 focus:outline-none focus:ring-2 focus:ring-white/40 cursor-pointer"
+            >
+              {isMuted ? (
+                <VolumeX className="w-4 h-4 sm:w-4.5 sm:h-4.5 text-white/90" />
+              ) : (
+                <Volume2 className="w-4 h-4 sm:w-4.5 sm:h-4.5 text-white" />
+              )}
+            </button>
           </div>
         </div>
       </div>
