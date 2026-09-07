@@ -93,10 +93,11 @@ export const portfolioWork: PortfolioItem[] = [
     id: 3,
     title: "Commercial Storytelling Concepts",
     client: "Spec Campaigns",
-    videoUrl: "/reel2.mp4", 
+    videoUrl: "my-promo.mp4", 
     size: "large",
     year: "2026",
     discipline: "Google Flow Workspace & Narrative Generation",
+    isAnthology: true,
     markdownContext: `### Commercial Storytelling Concepts (Anthology)
 An anthology of high-impact commercial spots, brand films, and speculative narrative experiments bridging algorithmic generation with cinematic art direction.
 
@@ -108,6 +109,7 @@ An anthology of high-impact commercial spots, brand films, and speculative narra
         title: "Spot 01: Kinetic Energy Campaign",
         videoUrl: "https://res.cloudinary.com/xywystqe/video/upload/v1788802335/Energy_drink_com.mp4",
         tag: "Motion Film",
+        badge: "Motion Film",
         aspectRatio: "9:16",
         markdownContext: `### Spot 01: Kinetic Energy Campaign
 
@@ -123,6 +125,7 @@ An anthology of high-impact commercial spots, brand films, and speculative narra
         title: "Spot 02: Atelier Studio Promo",
         videoUrl: "/my-promo.mp4",
         tag: "Brand Film",
+        badge: "Brand Film",
         aspectRatio: "16:9",
         markdownContext: `### Spot 02: Atelier Studio Promo
 
@@ -138,6 +141,7 @@ An anthology of high-impact commercial spots, brand films, and speculative narra
         title: "Spot 03: Editorial Motion & Form",
         videoUrl: "/reel1.mp4",
         tag: "Spec Spot",
+        badge: "Spec Spot",
         aspectRatio: "9:16",
         markdownContext: `### Spot 03: Editorial Motion & Form
 
@@ -153,6 +157,8 @@ An anthology of high-impact commercial spots, brand films, and speculative narra
         title: "Spot 04: Computational Narrative & Flow",
         videoUrl: "/reel3.mp4",
         tag: "Research & Spec",
+        badge: "Research & Spec",
+        aspectRatio: "16:9",
         markdownContext: `### Spot 04: Computational Narrative & Flow
 
 **Objective**: Demonstrate how autonomous generative models and human art direction collaborate to construct coherent cinematic narrative structures.
@@ -173,11 +179,189 @@ An anthology of high-impact commercial spots, brand films, and speculative narra
     size: "small",
     year: "2026",
     discipline: "NotebookLM & Prompting",
-    markdownContext: `### AI Content Systems
+    isAnthology: true,
+    markdownContext: `### AI Content Systems (Anthology)
 **Focus**: Automated Research Distillation & Multi-Format Synthesis
 
-- **Knowledge Structuring**: Built structured notebook repositories extracting core thematic insights from 500+ pages of unstructured research.
-- **Multi-Modal Output**: Formatted synchronized podcast briefs, presentation outlines, and technical whitepapers in minutes.
-- **Precision Grounding**: Configured citation-anchored prompts guaranteeing zero hallmarked hallucinations.`,
+An automated vertical content engine translating dense research corpuses into structured knowledge outputs, multi-modal briefs, and autonomous prompt pipelines.
+
+- **Navigation**: Scroll through the 8-part anthology below to inspect vertical clip architectures and prompt directives.`,
+    anthologySpots: [
+      {
+        title: "NotebookLM Research",
+        badge: "AI WORKFLOW",
+        tag: "AI WORKFLOW",
+        aspectRatio: "9:16",
+        heroReelUrl: "",
+        fullVideoUrl: "",
+        videoUrl: "",
+        prompts: ["Automated via Claude"],
+        markdownContext: `### Spot 01: Multi-Agent Video Synthesis
+**Focus**: Automated Article Refinement & Short-Form Video Generation
+**Badge**: AI WORKFLOW | **Aspect Ratio**: 9:16 Vertical
+
+#### System Architecture & Objectives
+- **Phase 1: Narrative Refinement**: Deployed Claude to ingest rough draft articles, restructuring the raw content for clarity, pacing, and optimized video scripting. 
+- **Phase 2: Directorial Prompt Engineering**: Instructed Claude to act as a creative director, outputting a highly specific, constraints-based prompt tailored explicitly for NotebookLM's video generation engine.
+- **Phase 3: Automated Execution**: Fed the optimized directorial prompt into NotebookLM and executed the "Generate Video Overview" function to instantly synthesize the final visual output.
+- **Core Prompt Directive**: \`Analyze refined text and generate NotebookLM directorial prompt\`
+- **Cycle Acceleration**: Bypassed traditional video editing timelines, transforming raw text drafts into fully realized 9:16 video assets through a seamless, multi-agent handover.`,
+      },
+      {
+        title: "Seeking Help",
+        badge: "AI WORKFLOW",
+        tag: "AI WORKFLOW",
+        aspectRatio: "9:16",
+        heroReelUrl: "",
+        fullVideoUrl: "https://res.cloudinary.com/xywystqe/video/upload/v1788807966/The_Quiet_Strength_of_Asking_for_Help.mp4",
+        videoUrl: "",
+        prompts: ["it's okay"],
+        markdownContext: `### Spot 02: The Strength in Reaching Out
+**Focus**: Personal Narrative & Emotional Resilience
+**Badge**: NARRATIVE | **Aspect Ratio**: 9:16 Vertical
+
+There's a quiet kind of strength in admitting you need help. 
+
+Sometimes you do everything right — you show up, you try, you put in the work — and things still don't feel alright. Not because you failed. Simply because some things were never entirely in your hands to begin with. 
+
+That's the part we often forget to say out loud: *it's okay*. It's okay to sit with someone you trust and say the truth of how you're feeling, without softening it, without performing strength you don't have that day. And when it's needed, it's okay to seek out a professional too. Asking for help was never a sign of weakness — it's one of the most honest things a person can do.
+
+Once you recognize what's genuinely outside your control, something shifts. You get to let go, and place your trust in a guidance greater than your own effort alone. There's nothing left to prove. No version of yourself you need to perform for anyone. You are allowed peace. You are allowed ease. And you're allowed to forgive yourself for the past you carried the best way you knew how at the time.
+
+Some things simply weren't meant for you, and releasing them isn't losing — it's making room. So when life feels heavy and unmoving, and you reach out for support, know that this too is part of the journey. Not a detour from it. There may come a day when the very thing you struggled through becomes the thing that lets you guide someone else.
+
+Until then — *Alhamdulillah*, and gratitude for the small things. The ones that quietly bring light and joy into your world, even in the middle of difficulty.
+
+If you're going through something right now, you don't have to carry it alone. I'd love to hear what's helped you find that support when you needed it most. Thank you for reading.`,
+      },
+      {
+        title: "RAG Pipeline",
+        badge: "Waking up",
+        tag: "AI WORKFLOW",
+        aspectRatio: "9:16",
+        heroReelUrl: "",
+        fullVideoUrl: "https://res.cloudinary.com/xywystqe/video/upload/v1788807964/The_Truth_About_Waking_Up_On_Time.mp4",
+        videoUrl: "",
+        prompts: ["the struggle"],
+        markdownContext: `### Spot 03: The Everlasting Struggle of Waking Up
+**Focus**: Mindset & Daily Resilience
+**Badge**: NARRATIVE | **Aspect Ratio**: 9:16 Vertical
+
+The never-ending challenge of waking up on time. Stick around till the end — I promise this one's worth it.
+
+Here's the funny part. You think you've finally mastered it. And then, somehow, it shows up again — like a brand new challenge, wearing the same old face.
+
+You keep coming back to the same lesson, over and over, each time with a little more wisdom, a little more knowledge... and yet you still have to master it. Again. And again.
+
+That's just how it is. So the real question isn't "how do I fix this forever." It's — what's your attitude going to be, the next time it shows up?
+
+Because here's the truth: you can have the right mindset. You can know your purpose. You can be genuinely grateful for everything you've been given. And still — when that moment hits every morning, there's a voice whispering that it's easier to just stay lying there.
+
+That struggle? That's not failure. That's just part of being human.
+
+You don't need a perfect beginning to have a meaningful day. Even if this morning didn't go the way you planned, look at everything else you still showed up for. That counts too. Doesn't it?
+
+So next time it teases you, taunts you — it's okay. Unless you promised someone you'd be there, or it's a real responsibility calling you — give yourself some grace.
+
+You're only human. Keep trying. Keep praying. Say *Alhamdulillah*.
+
+Keep me in your prayers, and if this one hit home, share it with a friend who needs to hear it too. Thank you for watching.`,
+      },
+      {
+        title: "System Architecture",
+        badge: "AI WORKFLOW",
+        tag: "AI WORKFLOW",
+        aspectRatio: "9:16",
+        heroReelUrl: "",
+        fullVideoUrl: "",
+        videoUrl: "",
+        prompts: ["Designing prompt hierarchies"],
+        markdownContext: `### Spot 04: System Architecture
+**Focus**: Meta-Prompt Hierarchies & Autonomous Agent Guardrails
+**Badge**: AI WORKFLOW | **Aspect Ratio**: 9:16 Vertical
+
+#### Engineering Framework
+- **Hierarchical Prompt Chains**: Structured multi-tiered execution pipelines separating intent detection, schema validation, and generative synthesis.
+- **Deterministic Guardrails**: Implemented negative constraints and automated schema assertions to prevent drift in production workflows.
+- **Core Prompt Directive**: \`Designing prompt hierarchies\`
+- **Operational Scalability**: Built resilient operational workflows capable of running unattended in multi-agent orchestration environments.`,
+      },
+      {
+        title: "Prompt Engineering Matrix",
+        badge: "AI WORKFLOW",
+        tag: "AI WORKFLOW",
+        aspectRatio: "9:16",
+        heroReelUrl: "",
+        fullVideoUrl: "",
+        videoUrl: "",
+        prompts: ["Few-shot evaluation matrix and edge-case calibration"],
+        markdownContext: `### Spot 05: Prompt Engineering Matrix
+**Focus**: Systematic Few-Shot Evaluation & Context Optimization
+**Badge**: AI WORKFLOW | **Aspect Ratio**: 9:16 Vertical
+
+#### Methodology & Metrics
+- **Matrix Calibration**: Engineered few-shot test batteries covering ambiguity, domain jargon, and edge-case constraint violations.
+- **Token Efficiency**: Streamlined system prompt token footprints by 42% while improving classification reliability.
+- **Core Prompt Directive**: \`Few-shot evaluation matrix and edge-case calibration\`
+- **Quality Benchmark**: Exceeded human domain-expert consistency baselines across 200 automated trial runs.`,
+      },
+      {
+        title: "Autonomous Agent Guardrails",
+        badge: "AI WORKFLOW",
+        tag: "AI WORKFLOW",
+        aspectRatio: "9:16",
+        heroReelUrl: "",
+        fullVideoUrl: "",
+        videoUrl: "",
+        prompts: ["Semantic safety boundaries and deterministic JSON schema validation"],
+        markdownContext: `### Spot 06: Autonomous Agent Guardrails
+**Focus**: Runtime Policy Enforcement & Schema Conformance
+**Badge**: AI WORKFLOW | **Aspect Ratio**: 9:16 Vertical
+
+#### Safety Architecture
+- **Interception Layer**: Configured pre-execution semantic classifiers to catch adversarial injections and out-of-scope instructions.
+- **Strict Output Validation**: Wrapped all agent outputs in deterministic Zod/JSON schemas with automated retry protocols.
+- **Core Prompt Directive**: \`Semantic safety boundaries and deterministic JSON schema validation\`
+- **Fail-Safe Mechanism**: Defaulted cleanly to secondary validation checkpoints upon detecting anomalous model outputs.`,
+      },
+      {
+        title: "Multimodal Knowledge Distillation",
+        badge: "AI WORKFLOW",
+        tag: "AI WORKFLOW",
+        aspectRatio: "9:16",
+        heroReelUrl: "",
+        fullVideoUrl: "",
+        videoUrl: "",
+        prompts: ["Cross-modal video, audio, and transcript alignment"],
+        markdownContext: `### Spot 07: Multimodal Knowledge Distillation
+**Focus**: Synchronized Video, Audio, and Text Distillation
+**Badge**: AI WORKFLOW | **Aspect Ratio**: 9:16 Vertical
+
+#### Pipeline Mechanics
+- **Temporal Alignment**: Synchronized frame-by-frame visual features with timestamped audio transcripts for cross-modal indexing.
+- **Keyframe Extraction**: Extracted high-salience infographics and visual charts directly into structured knowledge cards.
+- **Core Prompt Directive**: \`Cross-modal video, audio, and transcript alignment\`
+- **Insight Retrieval**: Enabled natural-language search directly into specific moments and concepts in multi-hour video archives.`,
+      },
+      {
+        title: "Citation Grounding & Evaluation",
+        badge: "AI WORKFLOW",
+        tag: "AI WORKFLOW",
+        aspectRatio: "9:16",
+        heroReelUrl: "",
+        fullVideoUrl: "",
+        videoUrl: "",
+        prompts: ["Automated factual provenance audit and hallucination scoring"],
+        markdownContext: `### Spot 08: Citation Grounding & Evaluation
+**Focus**: Factual Provenance Audits & Hallucination Scoring
+**Badge**: AI WORKFLOW | **Aspect Ratio**: 9:16 Vertical
+
+#### Evaluation Framework
+- **Provenance Scoring**: Built an automated attribution pipeline comparing model assertions against primary source embeddings.
+- **Contradiction Filtering**: Scored generated responses for logical inconsistencies and flagged unsupported claims automatically.
+- **Core Prompt Directive**: \`Automated factual provenance audit and hallucination scoring\`
+- **Production Audit**: Produced automated audit reports verifying 100% citation backing for enterprise release artifacts.`,
+      },
+    ],
   },
 ];

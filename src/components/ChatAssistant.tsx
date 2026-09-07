@@ -51,11 +51,17 @@ export default function ChatAssistant() {
         if (item.markdownContext) {
           entry += `Project Overview & Context:\n${item.markdownContext}\n`;
         }
-        if (item.gallery && item.gallery.length > 0) {
+        const spots = item.anthologySpots || item.gallery;
+        if (spots && spots.length > 0) {
           entry += `Sub-Videos & Campaign Spots:\n`;
-          item.gallery.forEach((spot, idx) => {
-            entry += `--- Spot ${idx + 1}: ${spot.title} (${spot.tag || 'Campaign Spot'}) ---\n`;
-            entry += `Detailed Accomplishments & Brief:\n${spot.markdownContext}\n`;
+          spots.forEach((spot, idx) => {
+            entry += `--- Spot ${idx + 1}: ${spot.title} (${spot.badge || spot.tag || 'Campaign Spot'}) [Ratio: ${spot.aspectRatio || '16:9'}] ---\n`;
+            if (spot.markdownContext) {
+              entry += `Detailed Accomplishments & Brief:\n${spot.markdownContext}\n`;
+            }
+            if (spot.prompts && spot.prompts.length > 0) {
+              entry += `Key Directives & Prompts: ${spot.prompts.join(', ')}\n`;
+            }
           });
         }
         return entry;

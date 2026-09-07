@@ -87,7 +87,10 @@ export const HeroStatement: React.FC = () => {
           </div>
 
           {/* Right Column: The Video Player (Preloaded Crossfade 9:16 Aspect Ratio) */}
-          <div className="relative overflow-hidden w-full max-w-md md:max-w-none md:w-[38%] lg:w-[38%] xl:w-[36%] aspect-[9/16] rounded-2xl border-4 border-black shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] bg-black flex-shrink-0">
+          <div
+            className="relative overflow-hidden w-full max-w-md md:max-w-none md:w-[38%] lg:w-[38%] xl:w-[36%] aspect-[9/16] rounded-2xl border-4 border-black shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] bg-black flex-shrink-0 transform-gpu"
+            style={{ WebkitTransform: 'translateZ(0)' }}
+          >
             {heroVideos.map((videoSrc, index) => (
               <video
                 key={videoSrc}

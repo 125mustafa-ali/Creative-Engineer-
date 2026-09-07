@@ -7,12 +7,18 @@ export interface Capability {
 
 export interface GalleryItem {
   title: string;
-  videoUrl: string;
+  videoUrl?: string;
   thumbnail?: string;
-  markdownContext: string;
+  markdownContext?: string;
   tag?: string;
+  badge?: string;
   aspectRatio?: '16:9' | '9:16';
+  heroReelUrl?: string;
+  fullVideoUrl?: string;
+  prompts?: string[];
 }
+
+export type AnthologySpot = GalleryItem;
 
 export interface PortfolioItem {
   id: number;
@@ -24,6 +30,8 @@ export interface PortfolioItem {
   discipline?: string;
   markdownContext?: string;
   aspectRatio?: '16:9' | '9:16';
+  isAnthology?: boolean;
+  anthologySpots?: AnthologySpot[];
   gallery?: GalleryItem[];
 }
 
