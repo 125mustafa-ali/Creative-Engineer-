@@ -4,6 +4,13 @@ import { portfolioWork } from '../data';
 import { PortfolioItem } from '../types';
 import { Play, Maximize2, X, Eye } from 'lucide-react';
 
+const formatDuration = (seconds: number): string => {
+  if (!seconds || isNaN(seconds) || !isFinite(seconds)) return '--:--';
+  const mins = Math.floor(seconds / 60);
+  const secs = Math.floor(seconds % 60);
+  return `${mins}:${secs.toString().padStart(2, '0')}`;
+};
+
 export const SelectedWorkSection: React.FC = () => {
   const [activeItem, setActiveItem] = useState<PortfolioItem | null>(null);
   const [activeVideoUrl, setActiveVideoUrl] = useState<string>('');
@@ -12,9 +19,11 @@ export const SelectedWorkSection: React.FC = () => {
   const [activeTag, setActiveTag] = useState<string | undefined>(undefined);
   const [activeAspectRatio, setActiveAspectRatio] = useState<'16:9' | '9:16'>('16:9');
   const [filter, setFilter] = useState<'all' | 'video'>('all');
+  const [durations, setDurations] = useState<Record<number, string>>({});
 
   const openModal = (item: PortfolioItem) => {
     setActiveItem(item);
+    setDurations({});
     const spots = item.anthologySpots || item.gallery;
     if (spots && spots.length > 0) {
       const defaultSpot = spots[0];
@@ -307,6 +316,10 @@ export const SelectedWorkSection: React.FC = () => {
                       const isSelected = activeVideoTitle === spot.title;
                       const spotRatio = spot.aspectRatio || '16:9';
                       const spotBadge = spot.badge || spot.tag;
+                      const posterCandidate = spot.heroReelUrl || spot.fullVideoUrl || spot.videoUrl || spotVideoSrc;
+                      const posterSrc = posterCandidate && posterCandidate.includes('.mp4')
+                        ? posterCandidate.replace('.mp4', '.jpg')
+                        : undefined;
                       return (
                         <button
                           key={idx}
@@ -333,16 +346,24 @@ export const SelectedWorkSection: React.FC = () => {
                             style={{ WebkitTransform: 'translateZ(0)' }}
                           >
                             <video
-                              autoPlay
-                              loop
                               muted
                               playsInline
-                              preload="auto"
+                              preload="metadata"
+                              poster={posterSrc}
                               src={`${spotVideoSrc}#t=0.1`}
+                              onLoadedMetadata={(e) => {
+                                const dur = e.currentTarget.duration;
+                                if (dur && isFinite(dur)) {
+                                  setDurations((prev) => ({
+                                    ...prev,
+                                    [idx]: formatDuration(dur),
+                                  }));
+                                }
+                              }}
                               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300 pointer-events-none"
                             />
-                            <div className="absolute top-1 right-1 px-1 py-0.5 rounded bg-black/80 backdrop-blur-sm text-[8px] font-mono text-white tracking-wider uppercase flex items-center gap-1 max-w-[90%] truncate">
-                              <span>{spotRatio}</span>
+                            <div className="absolute top-1 right-1 px-1.5 py-0.5 rounded bg-black/80 backdrop-blur-sm text-[8px] font-mono text-white tracking-wider uppercase flex items-center gap-1 max-w-[90%] truncate">
+                              <span>{durations[idx] || '--:--'}</span>
                               {spotRatio !== '9:16' && spotBadge && <span>• {spotBadge}</span>}
                             </div>
                             {isSelected && (

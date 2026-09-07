@@ -1,33 +1,9 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React from 'react';
 import { siteConfig } from '../data';
 import { ArrowDown, Sparkles } from 'lucide-react';
 
 export const HeroStatement: React.FC = () => {
-  const heroVideos = ['/reel1.mp4', '/reel2.mp4', '/reel3.mp4', '/reel4.mp4'];
-  const [currentVideo, setCurrentVideo] = useState(0);
-  const videoRefs = useRef<(HTMLVideoElement | null)[]>([]);
-
-  const handleVideoEnd = () => {
-    setCurrentVideo((prev) => (prev + 1) % heroVideos.length);
-  };
-
-  useEffect(() => {
-    videoRefs.current.forEach((video, index) => {
-      if (!video) return;
-      if (index === currentVideo) {
-        video.currentTime = 0;
-        const playPromise = video.play();
-        if (playPromise !== undefined) {
-          playPromise.catch(() => {
-            // Autoplay policies handled gracefully
-          });
-        }
-      } else {
-        video.pause();
-        video.currentTime = 0;
-      }
-    });
-  }, [currentVideo]);
+  const heroVideo = 'https://res.cloudinary.com/xywystqe/video/upload/v1788802335/Energy_drink_com.mp4';
 
   return (
     <section id="studio" className="w-full border-b border-black bg-[#E8E6E1] text-black">
@@ -86,27 +62,20 @@ export const HeroStatement: React.FC = () => {
             </div>
           </div>
 
-          {/* Right Column: The Video Player (Preloaded Crossfade 9:16 Aspect Ratio) */}
+          {/* Right Column: The Video Player (Single Hero Commercial 9:16 Aspect Ratio) */}
           <div
             className="relative overflow-hidden w-full max-w-md md:max-w-none md:w-[38%] lg:w-[38%] xl:w-[36%] aspect-[9/16] rounded-2xl border-4 border-black shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] bg-black flex-shrink-0 transform-gpu"
             style={{ WebkitTransform: 'translateZ(0)' }}
           >
-            {heroVideos.map((videoSrc, index) => (
-              <video
-                key={videoSrc}
-                ref={(el) => {
-                  videoRefs.current[index] = el;
-                }}
-                src={videoSrc}
-                onEnded={handleVideoEnd}
-                muted
-                playsInline
-                preload="auto"
-                className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ease-in-out ${
-                  index === currentVideo ? 'opacity-100 z-10' : 'opacity-0 z-0'
-                }`}
-              />
-            ))}
+            <video
+              src={heroVideo}
+              autoPlay
+              loop
+              muted
+              playsInline
+              preload="auto"
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
       </div>

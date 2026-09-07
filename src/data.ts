@@ -273,94 +273,130 @@ Keep me in your prayers, and if this one hit home, share it with a friend who ne
         tag: "AI WORKFLOW",
         aspectRatio: "9:16",
         heroReelUrl: "",
-        fullVideoUrl: "",
+        fullVideoUrl: "https://res.cloudinary.com/xywystqe/video/upload/v1788807966/How_to_Reframe_a_Difficult_Season.mp4",
         videoUrl: "",
         prompts: ["Designing prompt hierarchies"],
-        markdownContext: `### Spot 04: System Architecture
-**Focus**: Meta-Prompt Hierarchies & Autonomous Agent Guardrails
-**Badge**: AI WORKFLOW | **Aspect Ratio**: 9:16 Vertical
+        markdownContext: `### Spot 04: A Season of Preparation
+**Focus**: Patience, Perspective & Divine Timing
+**Badge**: NARRATIVE | **Aspect Ratio**: 9:16 Vertical
 
-#### Engineering Framework
-- **Hierarchical Prompt Chains**: Structured multi-tiered execution pipelines separating intent detection, schema validation, and generative synthesis.
-- **Deterministic Guardrails**: Implemented negative constraints and automated schema assertions to prevent drift in production workflows.
-- **Core Prompt Directive**: \`Designing prompt hierarchies\`
-- **Operational Scalability**: Built resilient operational workflows capable of running unattended in multi-agent orchestration environments.`,
+When everything feels like it's working against you, ask yourself something small first: can you still sit down to a good meal? Can you still sleep?
+
+If the answer is yes, that's not nothing. That might even be the quiet sign that the stars aren't against you at all — that this stretch of difficulty is simply time, teaching you something you'll only fully understand later. A season preparing you for what's ahead. Unseen and unknown to you, but never unseen to the One who ordained it.
+
+Think back to the hardest thing you've already lived through. Now look at what you're carrying today. Chances are, it doesn't compare — and maybe that's the point. This isn't about the size of the difficulty. It's about the grit it's quietly building in you. A trial isn't punishment. It's preparation, so that when the blessing finally arrives, you're someone capable of holding it with grace.
+
+Life has a way of unfolding in ways that feel almost too intentional to be accidental. The marvels of technology. The quiet beauty of nature. That unexplainable sense of awe that catches you off guard sometimes. None of it feels random — it feels connected, like there's a reasoning behind it all that we only glimpse in pieces.
+
+And maybe that's the real invitation: that same wonder, that same beauty, is available on your own path too — the moment you're willing to set pride aside and surrender to something larger and more graceful than your own effort alone.
+
+So don't hold yourself back. Act with clear intention. Take ownership of your time and your life, and become the person you've quietly dreamed of being — while staying rooted in reality. Stay humble. Stay grateful. Set small goals, and actually celebrate them when you reach them. That's often how you learn the true edges of what's possible, and what simply isn't yours to control.
+
+In the end, the signs are already there, pointing toward a certain kind of truth. The only real choice left is whether to align with it, or spend your energy fighting a battle you were never meant to fight.
+
+So be grateful. Build a path steady enough that others might find their own way by following it. And the next time that sense of awe catches you off guard — say *Subhan Allah*, and let yourself simply be at peace in it.
+
+What's one small thing, easy to overlook, that's quietly carried you through a hard season? I'd love to hear it in the comments. Thank you for reading.`,
       },
       {
-        title: "Prompt Engineering Matrix",
+        title: "Self discipline",
         badge: "AI WORKFLOW",
         tag: "AI WORKFLOW",
         aspectRatio: "9:16",
         heroReelUrl: "",
-        fullVideoUrl: "",
+        fullVideoUrl: "https://res.cloudinary.com/xywystqe/video/upload/v1788807966/The_Courage_to_Say_No_to_Distraction.mp4",
         videoUrl: "",
-        prompts: ["Few-shot evaluation matrix and edge-case calibration"],
-        markdownContext: `### Spot 05: Prompt Engineering Matrix
-**Focus**: Systematic Few-Shot Evaluation & Context Optimization
-**Badge**: AI WORKFLOW | **Aspect Ratio**: 9:16 Vertical
+        prompts: ["Crucial"],
+        markdownContext: `### Spot 05: The Courage to Say No
+**Focus**: Self-Discipline & Overcoming Distraction
+**Badge**: NARRATIVE | **Aspect Ratio**: 9:16 Vertical
 
-#### Methodology & Metrics
-- **Matrix Calibration**: Engineered few-shot test batteries covering ambiguity, domain jargon, and edge-case constraint violations.
-- **Token Efficiency**: Streamlined system prompt token footprints by 42% while improving classification reliability.
-- **Core Prompt Directive**: \`Few-shot evaluation matrix and edge-case calibration\`
-- **Quality Benchmark**: Exceeded human domain-expert consistency baselines across 200 automated trial runs.`,
+Do you have the courage to say no? Self-discipline is actually pretty easy at the start. The novelty just carries you. 
+
+But the real test hits later when the simple things you already mastered suddenly feel hard again. When that friction hits, you haven't slipped back into your old self. You're just facing a brand new test of the awareness you've earned. Will you hold firm to your priorities or quietly slide backward? 
+
+Meet that struggle with appreciation and reach for help when you need it because true self-mastery is built on the courage to say no to distraction and instant gratification. Distraction will show up at every single level of your progress, wearing a brand new disguise. But the core question you have to answer never changes. 
+
+Say *Allahu Akbar* and keep going. The choice is always yours. So what choice are you making right now in this moment?`,
       },
       {
-        title: "Autonomous Agent Guardrails",
+        title: "Avoid distractions",
         badge: "AI WORKFLOW",
         tag: "AI WORKFLOW",
         aspectRatio: "9:16",
         heroReelUrl: "",
-        fullVideoUrl: "",
+        fullVideoUrl: "https://res.cloudinary.com/xywystqe/video/upload/v1788807966/The_Courage_to_Say_No_to_Distraction.mp4",
         videoUrl: "",
-        prompts: ["Semantic safety boundaries and deterministic JSON schema validation"],
-        markdownContext: `### Spot 06: Autonomous Agent Guardrails
-**Focus**: Runtime Policy Enforcement & Schema Conformance
-**Badge**: AI WORKFLOW | **Aspect Ratio**: 9:16 Vertical
+        prompts: ["You can do it"],
+        markdownContext: `### Spot 05: The Courage to Say No
+**Focus**: Self-Discipline & Overcoming Distraction
+**Badge**: NARRATIVE | **Aspect Ratio**: 9:16 Vertical
 
-#### Safety Architecture
-- **Interception Layer**: Configured pre-execution semantic classifiers to catch adversarial injections and out-of-scope instructions.
-- **Strict Output Validation**: Wrapped all agent outputs in deterministic Zod/JSON schemas with automated retry protocols.
-- **Core Prompt Directive**: \`Semantic safety boundaries and deterministic JSON schema validation\`
-- **Fail-Safe Mechanism**: Defaulted cleanly to secondary validation checkpoints upon detecting anomalous model outputs.`,
+Do you have the courage to say no? Self-discipline is actually pretty easy at the start. The novelty just carries you. 
+
+But the real test hits later when the simple things you already mastered suddenly feel hard again. When that friction hits, you haven't slipped back into your old self. You're just facing a brand new test of the awareness you've earned. Will you hold firm to your priorities or quietly slide backward? 
+
+Meet that struggle with appreciation and reach for help when you need it because true self-mastery is built on the courage to say no to distraction and instant gratification. Distraction will show up at every single level of your progress, wearing a brand new disguise. But the core question you have to answer never changes. 
+
+Say *Allahu Akbar* and keep going. The choice is always yours. So what choice are you making right now in this moment?`,
       },
       {
-        title: "Multimodal Knowledge Distillation",
+        title: "Hobbies",
         badge: "AI WORKFLOW",
         tag: "AI WORKFLOW",
         aspectRatio: "9:16",
         heroReelUrl: "",
-        fullVideoUrl: "",
+        fullVideoUrl: "https://res.cloudinary.com/xywystqe/video/upload/v1788807964/The_Hidden_Rule_for_Guilt-Free_Hobbies.mp4",
         videoUrl: "",
-        prompts: ["Cross-modal video, audio, and transcript alignment"],
-        markdownContext: `### Spot 07: Multimodal Knowledge Distillation
-**Focus**: Synchronized Video, Audio, and Text Distillation
-**Badge**: AI WORKFLOW | **Aspect Ratio**: 9:16 Vertical
+        prompts: ["Crucial"],
+        markdownContext: `### Spot 07: Earning Your Escape
+**Focus**: Work-Life Balance & Intentional Leisure
+**Badge**: NARRATIVE | **Aspect Ratio**: 9:16 Vertical
 
-#### Pipeline Mechanics
-- **Temporal Alignment**: Synchronized frame-by-frame visual features with timestamped audio transcripts for cross-modal indexing.
-- **Keyframe Extraction**: Extracted high-salience infographics and visual charts directly into structured knowledge cards.
-- **Core Prompt Directive**: \`Cross-modal video, audio, and transcript alignment\`
-- **Insight Retrieval**: Enabled natural-language search directly into specific moments and concepts in multi-hour video archives.`,
+It's important to have hobbies... but don't do this. Watch till the end to know what I mean.
+
+Ever felt the pull to break your routine, but held yourself back because you know exactly what your priorities are right now — and there's simply no room for anything else?
+
+It's a strange spot to be in. Almost makes you ask yourself — why so serious?
+
+Here's the thing. Staying sincere and consistent toward your goals matters, deeply. But you're a human being, not a machine built only to produce.
+
+Try thinking of a hobby as a mini vacation — one you take whenever you can genuinely make time for it. It doesn't just pull you out of the grind. It gives you a reason to work smarter, sharper, more efficiently — so you can actually earn the time for the things you love. Reading. A movie night with people you care about. Gaming. An adventure somewhere new. Whatever lights you up.
+
+But here's the hidden catch. That hobby, that little escape — it only really belongs to you once you've handled what you were responsible for first.
+
+So the real rule is simple: as long as your priorities are met, and your momentum stays intact, a hobby is a gift, not a trap. The moment it starts replacing your responsibilities instead of rewarding them — that's the line.
+
+So next time you finish your responsibilities ahead of schedule — say *Mashallah*, and let yourself enjoy a little treat with the time you've genuinely earned.
+
+If this hit home, share it with someone who needs to hear it. Thank you.`,
       },
       {
-        title: "Citation Grounding & Evaluation",
+        title: "Old struggles",
         badge: "AI WORKFLOW",
         tag: "AI WORKFLOW",
         aspectRatio: "9:16",
         heroReelUrl: "",
-        fullVideoUrl: "",
+        fullVideoUrl: "https://res.cloudinary.com/xywystqe/video/upload/v1788816258/Why_Old_Struggles_Keep_Coming_Back.mp4",
         videoUrl: "",
-        prompts: ["Automated factual provenance audit and hallucination scoring"],
-        markdownContext: `### Spot 08: Citation Grounding & Evaluation
-**Focus**: Factual Provenance Audits & Hallucination Scoring
-**Badge**: AI WORKFLOW | **Aspect Ratio**: 9:16 Vertical
+        prompts: ["Master them"],
+        markdownContext: `### Spot 08: Facing Old Struggles
+**Focus**: Perseverance, Gratitude & Inner Strength
+**Badge**: NARRATIVE | **Aspect Ratio**: 9:16 Vertical
 
-#### Evaluation Framework
-- **Provenance Scoring**: Built an automated attribution pipeline comparing model assertions against primary source embeddings.
-- **Contradiction Filtering**: Scored generated responses for logical inconsistencies and flagged unsupported claims automatically.
-- **Core Prompt Directive**: \`Automated factual provenance audit and hallucination scoring\`
-- **Production Audit**: Produced automated audit reports verifying 100% citation backing for enterprise release artifacts.`,
+Struggling with the old struggles again? Listen till the end — this one's about staying grateful through it.
+
+You've come a real distance. You've faced trials, weathered tests life has thrown your way. But here's the thing no one tells you — that doesn't mean the old struggles are fully conquered. Not forever. Not completely.
+
+Life has a way of testing you again, placing limits in front of you — not to punish you, but for your own good. To remind you which direction you actually need to be moving in.
+
+So when something old, something you thought you'd already handled, shows up to challenge you one more time — remember, you can overcome it. You can defy the odds stacked against you, even the second or third time around.
+
+And here's the quiet possibility hiding in that struggle: your greatest weakness, faced honestly, could become your greatest strength. That very challenge might be the frontier to your next level. Your next real adventure.
+
+So be grateful — for the *fazl and karam* passed down through your elders, and theirs before them, all the way back to the guidance of Allah Azza Wa Jal. Be humble. Smile a little more.
+
+And share this with someone who needs to hear it today.`,
       },
     ],
   },
