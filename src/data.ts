@@ -320,25 +320,29 @@ Meet that struggle with appreciation and reach for help when you need it because
 Say *Allahu Akbar* and keep going. The choice is always yours. So what choice are you making right now in this moment?`,
       },
       {
-        title: "Avoid distractions",
+        title: "take a break",
         badge: "AI WORKFLOW",
         tag: "AI WORKFLOW",
         aspectRatio: "9:16",
         heroReelUrl: "",
-        fullVideoUrl: "https://res.cloudinary.com/xywystqe/video/upload/v1788807966/The_Courage_to_Say_No_to_Distraction.mp4",
+        fullVideoUrl: "https://res.cloudinary.com/xywystqe/video/upload/v1788818095/Why_Breaking_Your_Momentum_Actually_Matters.mp4",
         videoUrl: "",
         prompts: ["You can do it"],
-        markdownContext: `### Spot 05: The Courage to Say No
-**Focus**: Self-Discipline & Overcoming Distraction
+        markdownContext: `### Spot 06: Breaking the Momentum
+**Focus**: Intentional Direction & Realignment
 **Badge**: NARRATIVE | **Aspect Ratio**: 9:16 Vertical
 
-Do you have the courage to say no? Self-discipline is actually pretty easy at the start. The novelty just carries you. 
+Breaking the momentum — when it actually matters.
 
-But the real test hits later when the simple things you already mastered suddenly feel hard again. When that friction hits, you haven't slipped back into your old self. You're just facing a brand new test of the awareness you've earned. Will you hold firm to your priorities or quietly slide backward? 
+Life builds momentum through consistency. It's a powerful tool — it keeps you productive, functioning almost on autopilot. But what happens when you realize that momentum isn't actually taking you in the right direction?
 
-Meet that struggle with appreciation and reach for help when you need it because true self-mastery is built on the courage to say no to distraction and instant gratification. Distraction will show up at every single level of your progress, wearing a brand new disguise. But the core question you have to answer never changes. 
+Maybe it's chasing prospects that don't align with your values. Maybe it's a diet habit, a sleep routine, a pattern you've been running on for so long you stopped questioning it. It could be almost anything.
 
-Say *Allahu Akbar* and keep going. The choice is always yours. So what choice are you making right now in this moment?`,
+That's exactly where a pause becomes crucial — especially before you sign a long-term contract, commit to a deal, or let a habit keep running purely on autopilot.
+
+Take that moment. Reflect. Do the work to realign your intentions, and remind yourself why you started this journey in the first place. What's actually at stake becomes your tool — a way to reimagine your goals while staying grounded in reality, not just chasing motion for its own sake.
+
+And when you find that momentum again — the kind where your values and your actions finally align — say *Alhamdulillah*, and be grateful for every blessing that made this journey possible in the first place.`,
       },
       {
         title: "Hobbies",
