@@ -67,12 +67,12 @@ export const portfolioWork: PortfolioItem[] = [
     size: "large",
     year: "2026",
     discipline: "n8n Workflow & API Routing",
-    markdownContext: `### Security Automation Playbook
-**Focus**: Automated Threat Ingestion & Remediation Pipeline
+    markdownContext: `### Event-Driven Threat Containment Pipeline
+**Focus**: Enterprise Security Orchestration & Workflow Automation
 
-- **Orchestration**: Implemented n8n webhook nodes to parse incoming cloud alert payloads within 120ms.
-- **Triage Protocols**: Scripted deterministic triage rules cross-referencing CVE registries and internal assets.
-- **Incident Reduction**: Decreased alert fatigue by 74% and eliminated repetitive manual classification for security operations teams.`,
+- **Ingestion & Orchestration**: Shifted from request-response to an asynchronous webhook push model using n8n, implementing an upstream JSON Schema Validation gateway to catch unannounced vendor payload mutations and route errors to a Dead Letter Queue (DLQ).
+- **Internal Containment Protocols**: Engineered deterministic routing that evaluates threat vectors, triggering Fortinet perimeter drops for external threats and Cisco ISE REST API calls to enforce zero-trust switch-level quarantines for internal compromises.
+- **Data Sovereignty & Compliance**: Maintained UAE PDPL and DESC ISR v3.0 compliance by executing concurrent tamper-evident audit logging and dynamically masking PII via a Data Anonymization Node prior to cloud LLM inference.`,
   },
   {
     id: 2,
@@ -83,11 +83,11 @@ export const portfolioWork: PortfolioItem[] = [
     year: "2026",
     discipline: "React, Next.js & AI Chatbot Integration",
     markdownContext: `### Interactive React Portfolio
-**Focus**: Brutalist Editorial Atelier & Real-time AI Assistant
+**Focus**: AI-Assisted Web Architecture & Real-Time Gemini Assistant
 
-- **Aesthetic Direction**: High-contrast monochromes, tactile Swiss typography, and custom video canvas integration.
-- **Intelligent Assistant**: Embedded client-facing assistant grounded in studio capabilities and artifact specs using Gemini models.
-- **Zero-Latency Performance**: Client-side single-page architecture built with Vite, Tailwind CSS, and optimized media prefetching.`,
+- **Frontend & Visual Direction**: Scaffolded via AI-assisted "vibe coding" workflows, featuring high-contrast monochromes, tactile Swiss typography, and dynamic aspect-ratio rendering (16:9 vs. 9:16) for embedded commercial video backgrounds.
+- **Intelligent Chat Assistant**: Integrated a conversational, client-facing assistant utilizing the 'gemini-3.6-flash' API, configured with a 'react-markdown' UI wrapper to gracefully render structured, editorial-quality responses from complex portfolio data.
+- **Infrastructure & CI/CD**: Engineered a lightning-fast single-page application using Vite, React, and Tailwind CSS, hosted on Vercel with an automated continuous deployment pipeline triggered directly by GitHub commits.`,
   },
   {
     id: 3,
@@ -106,7 +106,7 @@ An anthology of high-impact commercial spots, brand films, and speculative narra
     gallery: [
       {
         title: "Spot 01: Kinetic Energy Campaign",
-        videoUrl: "/volt.mp4",
+        videoUrl: "https://res.cloudinary.com/xywystqe/video/upload/v1788802335/Energy_drink_com.mp4",
         tag: "Motion Film",
         aspectRatio: "9:16",
         markdownContext: `### Spot 01: Kinetic Energy Campaign
