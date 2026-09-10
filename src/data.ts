@@ -217,7 +217,7 @@ An automated vertical content engine translating dense research corpuses into st
       },
       {
         title: "Seeking Help",
-        badge: "AI WORKFLOW",
+        badge: "People you trust",
         tag: "AI WORKFLOW",
         aspectRatio: "9:16",
         heroReelUrl: "",
@@ -308,7 +308,7 @@ What's one small thing, easy to overlook, that's quietly carried you through a h
       },
       {
         title: "Self discipline",
-        badge: "AI WORKFLOW",
+        badge: "You must master",
         tag: "AI WORKFLOW",
         aspectRatio: "9:16",
         heroReelUrl: "",
@@ -354,7 +354,7 @@ And when you find that momentum again — the kind where your values and your ac
       },
       {
         title: "Hobbies",
-        badge: "AI WORKFLOW",
+        badge: "Where and when?",
         tag: "AI WORKFLOW",
         aspectRatio: "9:16",
         heroReelUrl: "",
@@ -391,7 +391,7 @@ If this hit home, share it with someone who needs to hear it. Thank you.`,
         heroReelUrl: "",
         fullVideoUrl: "https://res.cloudinary.com/xywystqe/video/upload/v1788816258/Why_Old_Struggles_Keep_Coming_Back.mp4",
         videoUrl: "",
-        prompts: ["Pray and Try"],
+        prompts: ["Try&Try until success"],
         markdownContext: `### Spot 08: Facing Old Struggles
 **Focus**: Perseverance, Gratitude & Inner Strength
 **Badge**: NARRATIVE | **Aspect Ratio**: 9:16 Vertical
