@@ -283,7 +283,7 @@ Keep me in your prayers, and if this one hit home, share it with a friend who ne
         heroReelUrl: "",
         fullVideoUrl: "https://res.cloudinary.com/xywystqe/video/upload/v1788807966/How_to_Reframe_a_Difficult_Season.mp4",
         videoUrl: "",
-        prompts: ["Designing prompt hierarchies"],
+        prompts: ["Always"],
         markdownContext: `### Spot 04: A Season of Preparation
 **Focus**: Patience, Perspective & Divine Timing
 **Badge**: NARRATIVE | **Aspect Ratio**: 9:16 Vertical
@@ -335,7 +335,7 @@ Say *Allahu Akbar* and keep going. The choice is always yours. So what choice ar
         heroReelUrl: "",
         fullVideoUrl: "https://res.cloudinary.com/xywystqe/video/upload/v1788818095/Why_Breaking_Your_Momentum_Actually_Matters.mp4",
         videoUrl: "",
-        prompts: ["Semantic safety boundaries and deterministic JSON schema validation"],
+        prompts: ["Pause and reflect"],
         markdownContext: `### Spot 06: Breaking the Momentum
 **Focus**: Intentionality & Re-alignment
 **Badge**: NARRATIVE | **Aspect Ratio**: 9:16 Vertical
@@ -391,7 +391,7 @@ If this hit home, share it with someone who needs to hear it. Thank you.`,
         heroReelUrl: "",
         fullVideoUrl: "https://res.cloudinary.com/xywystqe/video/upload/v1788816258/Why_Old_Struggles_Keep_Coming_Back.mp4",
         videoUrl: "",
-        prompts: ["Automated factual provenance audit and hallucination scoring"],
+        prompts: ["Pray and Try"],
         markdownContext: `### Spot 08: Facing Old Struggles
 **Focus**: Perseverance, Gratitude & Inner Strength
 **Badge**: NARRATIVE | **Aspect Ratio**: 9:16 Vertical
