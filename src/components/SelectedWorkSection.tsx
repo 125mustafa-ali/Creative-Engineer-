@@ -331,7 +331,7 @@ export const SelectedWorkSection: React.FC = () => {
                             setActiveTag(spotBadge);
                             setActiveAspectRatio(spotRatio);
                           }}
-                          className={`group text-left p-2 rounded-lg border-2 transition-all flex flex-col gap-1.5 cursor-pointer flex-shrink-0 snap-start ${
+                          className={`group text-left p-2 rounded-lg border-2 transition-all flex flex-col gap-1.5 cursor-pointer flex-shrink-0 snap-start overflow-hidden ${
                             spotRatio === '9:16' ? 'w-24 sm:w-28' : 'w-36 sm:w-44'
                           } ${
                             isSelected
@@ -374,14 +374,20 @@ export const SelectedWorkSection: React.FC = () => {
                               </div>
                             )}
                           </div>
-                          <div className="flex items-center justify-between text-xs mt-0.5">
-                            <span className="font-sans font-bold tracking-tight truncate text-[11px]">
+                          <div className="flex items-center justify-between gap-1 text-xs mt-0.5 w-full min-w-0">
+                            <span
+                              title={spot.title}
+                              className="font-sans font-bold tracking-tight truncate text-[11px] block min-w-0 flex-1"
+                            >
                               {spot.title}
                             </span>
                             <Play className={`w-2.5 h-2.5 flex-shrink-0 ml-1 ${isSelected ? 'fill-white' : 'fill-black'}`} />
                           </div>
                           {spot.prompts && spot.prompts.length > 0 && (
-                            <p className={`font-mono text-[9px] truncate line-clamp-1 ${isSelected ? 'text-white/70' : 'text-black/60'}`}>
+                            <p
+                              title={spot.prompts[0]}
+                              className={`font-mono text-[9px] truncate w-full min-w-0 ${isSelected ? 'text-white/70' : 'text-black/60'}`}
+                            >
                               &gt; {spot.prompts[0]}
                             </p>
                           )}

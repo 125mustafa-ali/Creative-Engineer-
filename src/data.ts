@@ -107,26 +107,32 @@ An anthology of high-impact commercial spots, brand films, and speculative narra
     gallery: [
       {
         title: "Spot 01: Kinetic Energy Campaign",
-        videoUrl: "https://res.cloudinary.com/xywystqe/video/upload/v1788802335/Energy_drink_com.mp4",
+        videoUrl: "/my-promo.mp4",
         tag: "Motion Film",
         badge: "Motion Film",
-        aspectRatio: "9:16",
-        markdownContext: `### Spot 01: Kinetic Energy Campaign
+        aspectRatio: "16:9",
+        markdownContext: `### Spot 01: The Low-Token Production Pipeline
+**Focus**: Concept Validation & Compute Optimization
+**Badge**: COMMERCIAL | **Aspect Ratio**: 16:9 Widescreen
 
-**Objective**: Craft an evocative, high-cadence commercial vignette demonstrating energy in transition, targeted at forward-looking mobility and clean-tech brands.
+High-fidelity video generation is incredibly powerful, but it is also compute-heavy. Relying on trial and error to lock in a narrative is the fastest way to burn through your token budget and stall production. 
 
-#### Creative Direction & Accomplishments
-- **Dynamic Pacing**: Engineered an adaptive cut frequency timed to industrial percussion, driving an emotional arc from nascent static charge to explosive dynamic velocity.
-- **Color Grading & Atmosphere**: Applied a high-contrast brutalist palette with muted amber accents and deep shadow depths, delivering visceral physical texture.
-- **Narrative Archetype**: Explored human resilience juxtaposed with raw technological propulsion, generating a 3.4x higher viewer completion rate in audience testing.
-- **Output Deliverables**: 4K Master Cinema Cut (16:9) and vertical social vignettes (9:16) with tailored graphic overlays.`,
+The solution is a strict "low-token" pre-production pipeline. Before a single video frame is rendered, the entire conceptual architecture is mapped out and validated using lower-cost, high-speed LLM reasoning.
+
+It starts with the foundation: generating a composite image of the storyboard, a cohesive character sheet to lock in aesthetic markers, and a highly structured Master Prompt. These assets cost a fraction of a cent to produce, yet they hold the complete DNA of the commercial.
+
+These foundational elements are then fed directly into a Google Flow agent. Operating as an autonomous Creative Director, the agent analyzes the package for character continuity, scene logic, and emotional pacing. It reviews the visual storyboard against the Master Prompt, either flagging inconsistencies for revision or giving the final green light. 
+
+Only after the narrative logic is fully validated by the Flow agent do we engage the heavy GPUs for video generation. 
+
+This model strips the guesswork out of AI filmmaking. By isolating the reasoning phase from the rendering phase, we guarantee that every expensive video token spent is executing a pre-approved, flawless narrative. It is maximum creative impact with near-zero compute waste.`,
       },
       {
         title: "Spot 02: Atelier Studio Promo",
-        videoUrl: "/my-promo.mp4",
+        videoUrl: "https://res.cloudinary.com/xywystqe/video/upload/v1788802335/Energy_drink_com.mp4",
         tag: "Brand Film",
         badge: "Brand Film",
-        aspectRatio: "16:9",
+        aspectRatio: "9:16",
         markdownContext: `### Spot 02: Atelier Studio Promo
 
 **Objective**: Define the foundational brand thesis of our studio practice—bridging algorithmic generation and meticulous editorial craftsmanship.
@@ -139,7 +145,7 @@ An anthology of high-impact commercial spots, brand films, and speculative narra
       },
       {
         title: "Spot 03: Editorial Motion & Form",
-        videoUrl: "/reel1.mp4",
+        videoUrl: "https://res.cloudinary.com/xywystqe/video/upload/v1788971778/Boost_Ad.mp4",
         tag: "Spec Spot",
         badge: "Spec Spot",
         aspectRatio: "9:16",
@@ -155,10 +161,10 @@ An anthology of high-impact commercial spots, brand films, and speculative narra
       },
       {
         title: "Spot 04: Computational Narrative & Flow",
-        videoUrl: "/reel3.mp4",
+        videoUrl: "https://res.cloudinary.com/xywystqe/video/upload/v1788974234/Igloo_Ice_cream.mp4",
         tag: "Research & Spec",
         badge: "Research & Spec",
-        aspectRatio: "16:9",
+        aspectRatio: "9:16",
         markdownContext: `### Spot 04: Computational Narrative & Flow
 
 **Objective**: Demonstrate how autonomous generative models and human art direction collaborate to construct coherent cinematic narrative structures.
@@ -200,12 +206,14 @@ An automated vertical content engine translating dense research corpuses into st
 **Focus**: Automated Article Refinement & Short-Form Video Generation
 **Badge**: AI WORKFLOW | **Aspect Ratio**: 9:16 Vertical
 
-#### System Architecture & Objectives
-- **Phase 1: Narrative Refinement**: Deployed Claude to ingest rough draft articles, restructuring the raw content for clarity, pacing, and optimized video scripting. 
-- **Phase 2: Directorial Prompt Engineering**: Instructed Claude to act as a creative director, outputting a highly specific, constraints-based prompt tailored explicitly for NotebookLM's video generation engine.
-- **Phase 3: Automated Execution**: Fed the optimized directorial prompt into NotebookLM and executed the "Generate Video Overview" function to instantly synthesize the final visual output.
-- **Core Prompt Directive**: \`Analyze refined text and generate NotebookLM directorial prompt\`
-- **Cycle Acceleration**: Bypassed traditional video editing timelines, transforming raw text drafts into fully realized 9:16 video assets through a seamless, multi-agent handover.`,
+**// SYSTEM ARCHITECTURE & OBJECTIVES**
+
+* **Phase 1: Narrative Refinement:** Deployed Claude to ingest rough draft articles, restructuring the raw content for clarity, pacing, and optimized video scripting.
+* **Phase 2: Directorial Prompt Engineering:** Instructed Claude to act as a creative director, outputting a highly specific, constraints-based prompt tailored explicitly for NotebookLM's video generation engine.
+* **Phase 3: Automated Execution:** Fed the optimized directorial prompt into NotebookLM and executed the "Generate Video Overview" function to instantly synthesize the final visual output.
+
+* **Core Prompt Directive:** Analyze refined text and generate NotebookLM directorial prompt.
+* **Cycle Acceleration:** Bypassed traditional video editing timelines, transforming raw text drafts into fully realized 9:16 video assets through a seamless, multi-agent handover.`,
       },
       {
         title: "Seeking Help",
@@ -235,8 +243,8 @@ Until then — *Alhamdulillah*, and gratitude for the small things. The ones tha
 If you're going through something right now, you don't have to carry it alone. I'd love to hear what's helped you find that support when you needed it most. Thank you for reading.`,
       },
       {
-        title: "RAG Pipeline",
-        badge: "Waking up",
+        title: "Waking up",
+        badge: "The struggle",
         tag: "AI WORKFLOW",
         aspectRatio: "9:16",
         heroReelUrl: "",
@@ -268,8 +276,8 @@ You're only human. Keep trying. Keep praying. Say *Alhamdulillah*.
 Keep me in your prayers, and if this one hit home, share it with a friend who needs to hear it too. Thank you for watching.`,
       },
       {
-        title: "System Architecture",
-        badge: "AI WORKFLOW",
+        title: "Being Gracious",
+        badge: " Carry on",
         tag: "AI WORKFLOW",
         aspectRatio: "9:16",
         heroReelUrl: "",
@@ -320,16 +328,16 @@ Meet that struggle with appreciation and reach for help when you need it because
 Say *Allahu Akbar* and keep going. The choice is always yours. So what choice are you making right now in this moment?`,
       },
       {
-        title: "take a break",
-        badge: "AI WORKFLOW",
+        title: "Momemtum",
+        badge: "Pause or go on?",
         tag: "AI WORKFLOW",
         aspectRatio: "9:16",
         heroReelUrl: "",
         fullVideoUrl: "https://res.cloudinary.com/xywystqe/video/upload/v1788818095/Why_Breaking_Your_Momentum_Actually_Matters.mp4",
         videoUrl: "",
-        prompts: ["You can do it"],
+        prompts: ["Semantic safety boundaries and deterministic JSON schema validation"],
         markdownContext: `### Spot 06: Breaking the Momentum
-**Focus**: Intentional Direction & Realignment
+**Focus**: Intentionality & Re-alignment
 **Badge**: NARRATIVE | **Aspect Ratio**: 9:16 Vertical
 
 Breaking the momentum — when it actually matters.
@@ -377,13 +385,13 @@ If this hit home, share it with someone who needs to hear it. Thank you.`,
       },
       {
         title: "Old struggles",
-        badge: "AI WORKFLOW",
+        badge: "Pray and Try",
         tag: "AI WORKFLOW",
         aspectRatio: "9:16",
         heroReelUrl: "",
         fullVideoUrl: "https://res.cloudinary.com/xywystqe/video/upload/v1788816258/Why_Old_Struggles_Keep_Coming_Back.mp4",
         videoUrl: "",
-        prompts: ["Master them"],
+        prompts: ["Automated factual provenance audit and hallucination scoring"],
         markdownContext: `### Spot 08: Facing Old Struggles
 **Focus**: Perseverance, Gratitude & Inner Strength
 **Badge**: NARRATIVE | **Aspect Ratio**: 9:16 Vertical
