@@ -106,7 +106,7 @@ An anthology of high-impact commercial spots, brand films, and speculative narra
 - **Navigation**: Click on any of the 4 sub-video campaign spots below to explore the motion cut and read its technical & creative debrief.`,
     gallery: [
       {
-        title: "Spot 01: Kinetic Energy Campaign",
+        title: "Spot 01:Fictional Campaign 1 ",
         videoUrl: "/my-promo.mp4",
         tag: "Motion Film",
         badge: "Motion Film",
@@ -128,52 +128,73 @@ Only after the narrative logic is fully validated by the Flow agent do we engage
 This model strips the guesswork out of AI filmmaking. By isolating the reasoning phase from the rendering phase, we guarantee that every expensive video token spent is executing a pre-approved, flawless narrative. It is maximum creative impact with near-zero compute waste.`,
       },
       {
-        title: "Spot 02: Atelier Studio Promo",
+        title: "Spot 02: Spec Energy drink",
         videoUrl: "https://res.cloudinary.com/xywystqe/video/upload/v1788802335/Energy_drink_com.mp4",
         tag: "Brand Film",
         badge: "Brand Film",
         aspectRatio: "9:16",
-        markdownContext: `### Spot 02: Atelier Studio Promo
+        markdownContext: `### Spot 02: Volt Energy - "The Call"
+**Focus**: Action Physics & Satirical Compositing
+**Badge**: COMMERCIAL (SPEC) | **Aspect Ratio**: 9:16 Vertical
 
-**Objective**: Define the foundational brand thesis of our studio practice—bridging algorithmic generation and meticulous editorial craftsmanship.
+**// THE CONCEPT**
+A high-octane extreme sports spec ad. It escalates from gritty, intense preparation to a surreal cliff jump, culminating in a direct, satirical jab at Red Bull's iconic slogan.
 
-#### Creative Direction & Accomplishments
-- **Monochrome Elegance**: Employed a stark black-and-white visual motif emphasizing typography, negative space, and typographic geometry.
-- **Multi-Disciplinary Synthesis**: Seamlessly interwove code syntax, editorial print design, and kinetic video sequencing into a cohesive brand statement.
-- **Sound Design**: Integrated synthesized low-frequency sub-bass tones and crisp mechanical audio cues to heighten tactical immersion.
-- **Strategic Impact**: Established the core visual manifesto for new client onboarding across Dubai and Hyderabad.`,
+**// LOW-TOKEN PIPELINE ARTIFACTS**
+
+* **Character Sheet Constraints:** "Subject: Motocross rider. Wardrobe: Black and red 'VOLT' branded gear. Face concealed by helmet." (Concealing the face saves massive compute tokens on maintaining facial consistency during high-speed action).
+* **Storyboard Matrix (Beat 03):** "Slow-motion mid-air jump over a grand canyon. A surreal, massive VOLT can floats in the foreground. The rider deploys a red, white, and black parachute while remaining seated on the dirtbike."
+* **Master Generation Prompt:** 
+> "Vertical cinematic action sports footage, 35mm lens. A motocross rider in black and red VOLT gear soaring off a massive desert canyon cliff. A parachute deploys from the rider's back while still on the bike. High contrast, dynamic lighting, hyper-realistic canyon environment."
+
+**// AGENT VALIDATION**
+The Flow agent flagged two major complexities: physics violations (parachute on a bike) and text hallucination (the smartphone screen). The pipeline solution: render the surreal parachute physics using relaxed logic parameters, and generate the final product shot clean. The satirical text ("GIVES YOU WINGS YOU DIDN'T KNOW YOU NEEDED" and "99 missed calls from RedBull") was added in post-production to ensure flawless typography.`,
       },
       {
-        title: "Spot 03: Editorial Motion & Form",
+        title: "Spot 03: Spec Boost campaign",
         videoUrl: "https://res.cloudinary.com/xywystqe/video/upload/v1788971778/Boost_Ad.mp4",
         tag: "Spec Spot",
         badge: "Spec Spot",
         aspectRatio: "9:16",
-        markdownContext: `### Spot 03: Editorial Motion & Form
+        markdownContext: `### Spot 03: Boost Drink - "The Gentle Push"
+**Focus**: Lighting Transitions & Emotional Storytelling
+**Badge**: COMMERCIAL (SPEC) | **Aspect Ratio**: 9:16 Vertical
 
-**Objective**: A speculative luxury fashion and architectural spot examining spatial geometry, tactile textures, and kinetic fluidity.
+**// THE CONCEPT**
+A serene, deeply personal spec campaign for Boost. Rather than focusing on extreme sports or hyper-productivity, this spot captures the quiet reality of early mornings—moving from the heavy fatigue of waking up to the spiritual grounding of morning prayer, and finally, the warm energy of a new day alongside family.
 
-#### Creative Direction & Accomplishments
-- **Macro Choreography**: Shot in hyper-focused macro perspectives, capturing microscopic material grain and fluid dynamic movement.
-- **Typography Integration**: Superimposed custom serif typography and architectural metadata over moving footage with sub-pixel alignment.
-- **Spatial Audio Architecture**: Spatialized 3D audio landscape balancing ambient room acoustics with subtle binaural frequencies.
-- **Key Milestones**: Selected as a featured visual reference in the 2026 Middle East Digital Design Review.`,
+**// LOW-TOKEN PIPELINE ARTIFACTS**
+
+* **Character Sheet Constraints:** "Subject: Young man, expressive eyes, subtle stubble. Wardrobe: Crisp white traditional shirt (kurta/kandura). Lighting Arc: Scene 1 must use cool, desaturated blues (fatigue). Scene 3 must use radiant, golden-hour warmth (energy)."
+* **Storyboard Matrix (Beat 04):** "Close-up in a sunlit kitchen. The subject takes a slow sip from a black mug with 'BOOST' written in bold white typography. As he drinks, warm morning sunlight flares across his face. The fatigue lifts, replaced by a bright, genuine smile as he steps outside to greet his family."
+* **Master Generation Prompt:** 
+> "Vertical cinematic documentary style, 35mm lens, f/1.8. A young man in a white kandura sips a hot drink from a black mug in a bright kitchen. Soft, photorealistic steam rising. The scene is bathed in warm, volumetric golden-hour sunlight. Transition to a bright, optimistic smile. Ultra-realistic, emotional, high-quality lighting, strict facial consistency."
+
+**// AGENT VALIDATION**
+AI models notoriously struggle with maintaining text geometry on curved, moving surfaces like a coffee mug. The Flow agent recommended a specific technical compromise: keep the mug matte black to maximize contrast for the white 'BOOST' typography, and lock the camera's Z-axis during the drinking motion to prevent the letters from warping or hallucinating.`,
       },
       {
-        title: "Spot 04: Computational Narrative & Flow",
+        title: "Spot 04: Spec Igloo Ice cream",
         videoUrl: "https://res.cloudinary.com/xywystqe/video/upload/v1788974234/Igloo_Ice_cream.mp4",
         tag: "Research & Spec",
         badge: "Research & Spec",
         aspectRatio: "9:16",
-        markdownContext: `### Spot 04: Computational Narrative & Flow
+        markdownContext: `### Spot 04: Igloo Ice Cream - "Coming Home"
+**Focus**: Emotional Storytelling & Typography Workarounds
+**Badge**: COMMERCIAL (SPEC) | **Aspect Ratio**: 9:16 Vertical
 
-**Objective**: Demonstrate how autonomous generative models and human art direction collaborate to construct coherent cinematic narrative structures.
+**// THE CONCEPT**
+An unofficial tribute to Igloo Ice Cream, rooted in the genuine feeling of bringing joy home after a long day. The narrative follows a father clocking out of the factory and returning to his family, emphasizing that the product isn't just a treat—it's a shared moment of connection.
 
-#### Creative Direction & Accomplishments
-- **Generative Prompt Pipeline**: Built an end-to-end prompt-to-shot storyboarding sequence using Google Flow and diffusion motion models.
-- **Style Consistency Engine**: Implemented semantic character and environment anchoring across 12 consecutive continuous sequences.
-- **Post-Production Polish**: Hand-refined color transforms, lens aberration artifacts, and film grain emulations to eliminate synthetic visual artifacts.
-- **Deliverable**: Proved an 80% reduction in pre-visualization iteration turnaround times for commercial pitch decks.`,
+**// LOW-TOKEN PIPELINE ARTIFACTS**
+
+* **Character Sheet Constraints:** "Subject: Working father, light blue uniform, tired but warm expression. Lighting Arc: Golden-hour exterior sunset transitioning to cozy, warm interior ambient light."
+* **Storyboard Matrix (Beat 03):** "Close-up in a warm living room. The father reaches into a brown paper bag and pulls out classic blue ice cream cones. The children react with pure, unpolished joy. Focus on authentic family dynamics over product placement."
+* **Master Generation Prompt:** 
+> "Vertical cinematic narrative, 35mm lens. A father in a blue shirt sits on a living room couch, opening a brown paper bag to reveal ice cream cones to his two excited children. Warm, nostalgic interior lighting, soft shadows. Hyper-realistic, candid emotional expressions, Kodak Portra aesthetic."
+
+**// AGENT VALIDATION**
+The Flow agent correctly predicted that the video generation model would severely hallucinate the complex Igloo branding on the moving packaging as the father hands it to the children. The pipeline solution: allow the AI to generate structurally similar blue cones to maintain the emotional flow of the scene, and append a static, high-resolution composite of the actual Igloo product line at the end of the video. This hybrid approach guarantees 100% brand accuracy without burning compute tokens trying to force the engine to render impossible moving text.`,
       },
     ],
   },
